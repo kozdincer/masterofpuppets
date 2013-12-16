@@ -7,6 +7,9 @@ This script change source ip address and lookup a DNS query.
 
 **Example:** sudo /usr/bin/python sendDNSpackage.py
 
+**NOTE** You can observer the dns query with tcp dump like;
+*tcpdump -vvv -s 0 -l -n port 53*
+
 ### Example Usage & Output
 
 
